@@ -10,7 +10,7 @@ jobs:
       - uses: action/checkout@v3
 
       - name: Mostra texto
-        run: Echo aula Ok
+        run: echo aula Ok
 
       - name: Sincronia com Glitch
         uses: kanadgupta/glitch-sync@v3.0.1
